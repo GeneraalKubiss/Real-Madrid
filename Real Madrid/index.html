@@ -8,7 +8,6 @@
 <body>
 <header>
     <div class="logo">Real Madrid CF</div>
-    <button class="book-now">Do týmu</button>
 </header>
 
 <section class="main-section">
@@ -60,14 +59,29 @@
 </section>
 
 <section class="fifth-section">
-    <div class="image-container">
-        <img src="images/Basket.jpg" alt="Image 1">
-        <H2>Basketbalový tým</H2>
-        <img src="images/Hazena.jpg" alt="Image 2">
-        <H2>Házenkářský tým</H2>
-        <img src="images/Futsal.jpg" alt="Image 3">
-        <H2>Futsalový tým</H2>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/Basket.jpg" id="fullImg">
+        <span onclick="closeFullImg()">X</span>
     </div>
+    <div class="img-gallery">
+        <img src="images/Basket.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Futsal.jpg" onclick="openFullImg(this.src)">
+        <img src="images/Hazena.jpg" onclick="openFullImg(this.src)">
+    </div>
+    <script>
+
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg")
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+
+    </script>
 </section>
 
 <section class="sixth-section">

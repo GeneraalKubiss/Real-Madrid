@@ -117,7 +117,6 @@ header {
      border-radius: 15px;
      padding: 50px 40px;
      box-shadow: 0 0 10px;
-
  }
 
 
@@ -214,7 +213,7 @@ header {
     color: white;
     margin-left: 200px;
 }
-.fourth-section .image-container img {
+.fourth-section .age-container img {
     max-width: 100%;
     border-radius: 10%;
 }
@@ -232,7 +231,7 @@ header {
     flex-wrap: wrap;
 }
 .fifth-section h2{
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
 }
 .fifth-section .image-container {
@@ -327,4 +326,46 @@ header {
 .right-content a {
     color: inherit;
     text-decoration: underline;
+}
+
+.img-gallery{
+    width: 80%;
+    margin: 100px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+.img-gallery img{
+    width: 100%;
+    cursor: pointer;
+}
+.img-gallery img:hover{
+    transform: scale(0.8) rotate(-15deg);
+    border-radius: 20px;
+    box-shadow: 0 32px 75px rgba(68,77,136, 0.2);
+}
+
+.full-img{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+.full-img img{
+    width: 90%;
+    max-width: 900px;
+}
+.full-img span{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    color: #ffffff;
+    cursor: pointer;
 }
