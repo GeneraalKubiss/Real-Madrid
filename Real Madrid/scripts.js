@@ -56,6 +56,9 @@ const quotes = [{
 }, {
     quote: `"Every time I step onto the pitch, I give my all. I play with passion, determination, and a hunger to win."`,
     person: `Jude Bellingham`
+}, {
+    quote: `"Do what is right, no what is easy"`,
+    person:`Kuba Vrajík`
 }, ]
 
 btn.addEventListener('click', function(){
