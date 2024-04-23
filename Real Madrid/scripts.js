@@ -12,7 +12,7 @@ const quotes = [{
     quote: `"To wear the white jersey is to embody the spirit of Real Madrid – to never give up, to fight until the last whistle, and to always strive for excellence." `,
     person: `Dani Carvajal`
 }, {
-    quote: `"Dreams don't work unless you do. Every training session, every match is an opportunity to chase our dreams and make them a reality."`,
+    quote: `"Dreams don't work unless you do. Every football match, is an opportunity to chase our dreams and make them a reality."`,
     person: `Thibaut Courtois`
 }, {
     quote: `"The rivalry fuels our determination, but respect defines our sportsmanship. We compete fiercely, but always with integrity."`,
@@ -27,7 +27,7 @@ const quotes = [{
     quote: `"We are not just a team; we are a family. Together, we fight for victory, for honor, for Real Madrid."`,
     person: `Vinícius Júnior`
 }, {
-    quote: `"The love for this club runs deep in my veins. Every time I step onto the pitch, I give my all for the fans who support us through thick and thin."`,
+    quote: `"The love for this club runs deep in my veins. Every time I step onto the pitch, I give my all for the fans who support us."`,
     person: `Casemiro`
 }, {
     quote: `"Playing for Real Madrid means carrying the weight of history on your shoulders, but also having the privilege to write new chapters of glory."`,
